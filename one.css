@@ -1,0 +1,85 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    background-color: rgb(250, 241, 245);
+}
+
+nav{
+    border: 1px solid;
+    height: 30px;
+    background-color: rgb(255, 242, 253);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid;
+    height: 20px;
+    background-color: rgb(88, 129, 116);
+    border-radius: 3px;
+}
+
+a:hover{
+    color: rgb(255, 136, 0);
+}
+
+section{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.div{
+    border: 1px solid rgba(102, 98, 98, 0.562);
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+img[alt=img1] {
+    width: 200px;
+    border-radius: 5px;
+}
+
+img[alt=img2] {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+img[alt=img3] {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+img[alt=img4] {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+div:hover{
+    box-shadow: 0 0 0 1px rgba(114, 112, 112, 0.473);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec{
+    border: 1px solid rgb(59, 58, 58);
+    background-color: #fff;
+    width: 70rem;
+    border-radius: 5px;
+}

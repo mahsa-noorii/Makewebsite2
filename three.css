@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://wallpapers.com/images/featured/picture-en3dnh2zi84sgt3t.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink{
+    flex: 1;
+    text-align: right;
+}
+
+.navlink ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlink ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navlink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffa0e7;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navlink ul li:hover::after{
+    width: 100%;
+}
+
+.text{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 62px;
+}
+
+.text p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media(max-width: 700px) {
+    .text h1{
+        font-size: 20px;
+    }
+}
+
+.sec{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+section h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+section p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    background: #f1d1e9;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    border: 1px solid;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.div1:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
